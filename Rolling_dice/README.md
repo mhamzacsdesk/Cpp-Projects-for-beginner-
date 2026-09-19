@@ -14,7 +14,7 @@ A menu-driven command-line program written in C++ that simulates rolling differe
 <ul>
 <li><b>`&lt;ctime&gt;':</b> Used to get the current calendar time.</li>
 <li><b>`srand()`:</b> A random number generator initializer that takes a starting value called a seed.</li>
-<li><b>`rand()`:</b> Generates a random number. We pass the current time from `<ctime>` as the seed to `srand()` so the random numbers change every time you run the program.</li>
+<li><b>`rand()`:</b> Generates a random number. We pass the current time from `&lt;ctime&gt;` as the seed to `srand()` so the random numbers change every time you run the program.</li>
 </ul>
 <b>C++ Concepts Applied</b>
 <ul>
