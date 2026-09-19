@@ -13,6 +13,7 @@ A menu-driven command-line program written in C++ that simulates rolling differe
 <b>Understanding `ctime`, `srand()`, and `rand()`</b>
 <ul>
 <li><b>`&lt;ctime&gt;':</b> Used to get the current calendar time.</li>
+Note that `srand()` and `rand()` are part of the <code>&lt;cstdlib&gt;</code> library. While some C++ compilers automatically include it via <code>&lt;iostream&gt;</code>, it is best practice to explicitly add <code>#include &lt;cstdlib&gt;</code> at the top of your file. Otherwise you might get compilation error.
 <li><b>`srand()`:</b> A random number generator initializer that takes a starting value called a seed.</li>
 <li><b>`rand()`:</b> Generates a random number. We pass the current time from `&lt;ctime&gt;` as the seed to `srand()` so the random numbers change every time you run the program.</li>
 </ul>
